@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  become: True
+  gather_facts: False
+  tasks:
+  - debug:
+     msg: This is a Test.
